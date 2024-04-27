@@ -6,7 +6,7 @@
     .imagem_logo {
         width: 2em;
         height: 2em;
-        float: left;
+        float: right;
         /*max-width: 5em;*/
         margin: auto;
         opacity: .7;
@@ -23,17 +23,43 @@
         transform: none;
         transition: none;
     }
+
+    /*Menu Hamburguer*/
+    #hamburguer {
+        /*color: yellow;*/
+        color: var(--cor_amarelo_claro);
+        font-size: 2rem;
+        text-align: left;
+        display: block;
+        margin: .1rem;
+        cursor: pointer;
+        padding: .1rem;
+
+    }
+
+    #hamburguer:hover {
+        /*color: brown;*/
+        color: yellow;
+    }
+
+    /*Menu estendido não aparecer*/
+    nav {
+        display: none;
+    }
+
+
+
     
     .article_menu{
         /*text-align: center;*/
-        justify-content: center;
+        justify-content: left;
         display: flex;
     
     }
         
     ul, li, a {
         cursor: pointer;
-        display: inline;
+        /*display: inline;*/
         text-decoration: none; /*tirar sublinhado*/
         list-style-type: none; /*pra tirar o budgets*/
         gap: .6rem; /*espaço entre linhas */
@@ -41,7 +67,8 @@
         /*color: white;*/
         font-weight: bold;
         letter-spacing: 1px;
-        padding-bottom: 1px;
+        padding-bottom: 0;
+        padding-top: 0;
         /*font-size: .7rem;*/
         font-size: .6rem;
     
@@ -50,17 +77,20 @@
     /*elemento pai*/
     .menu {
         /*justify-content: center;*/
-        /*display: inline;*/
-        padding-top: 1em;
+        display: block;
+        margin-top: .2rem;
+        padding-top: 0;
        
         
     }
         
     .menu a {
         /*border: solid 2px white;*/
-        padding: .15em .5em;
-        border-radius: 15px;
-        margin-top: .0;
+        padding: .5em .5em;
+        border-radius: 10px;
+        /*margin-top: .0;*/
+        line-height: 1.2rem;
+        margin-left: -2rem;
         /*margin-top: 0.2rem;*/
         /*margin-right: 1rem;*/
         /*align-self: center; /*pra sobrescrever itens individuais*/
@@ -70,7 +100,7 @@
         
     .menu a:hover {
         background-color: brown;
-        transform: scale(1.1); 
+        transform: none; 
         
             
     }    
