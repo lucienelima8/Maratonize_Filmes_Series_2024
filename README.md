@@ -8,7 +8,7 @@ Esse site foi desenvolvido em 2023, na trilha 1.
 <br>
 Em 2024, na trilha 2, ele está sendo usado para aperfeiçoamento do aprendizado.
 <br>
-
+<br>
 Autora: Luciene Lima
 <br>
 <a href="https://github.com/lucienelima8" target="_blank">Meu Github</a>
