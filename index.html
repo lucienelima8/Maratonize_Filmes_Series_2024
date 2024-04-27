@@ -12,9 +12,15 @@
 
     <!-- ícone na aba -->
     <link rel="shortcut icon" href="imagens/controlo-remoto.png" type="image/x-icon">
+
+    <!-- Link do google pra usarmos o Ícone menu hamburguer -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       
     <!-- Linkar os ícones do linkedin e github: CDN-->
     <script src="https://kit.fontawesome.com/7d79481767.js" crossorigin="anonymous"></script>
+
+     <!-- Link arq js do menu hambuguer -->
+     <script src="index.js"></script>
 
     <!-- Linkar normalize -->
     <link rel="stylesheet" href="css/normalize.css">
@@ -38,8 +44,11 @@
 
         <!-- Logo  clicável pra página inicial/Home-->
         <a href="index.html"><img class="imagem_logo" src="imagens/download.png" alt="logo de uma tv"><a href="index.html"></a>
+        
+        <i id="hamburguer" class="material-icons" onclick="menuShow()">menu</i>
 
-        <nav>
+        <!-- Id do nav pra usar no menu hamburguer -->
+        <nav id="itens_hamburguer">
           <article class="article_menu">
             <ul class="menu">
                 <li><a href="#home">Home</a></li>
