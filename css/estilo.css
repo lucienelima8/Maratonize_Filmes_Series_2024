@@ -49,6 +49,20 @@ header {
     transition: transform 0.6s ease-in-out;
 }
 
+/*Menu Hamburguer*/
+#hamburguer {
+    color: yellow;
+    font-size: 2rem;
+    text-align: right;
+    /*display none pra quando tiver em telas maiores não aparecer o ícone do menu hamburguer*/
+    display: none;
+}
+
+/**/
+/*nav {
+    display: flex;
+}*/
+
 .article_menu{
     /*text-align: center;*/
     display: flex;
