@@ -389,7 +389,8 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 200px;
+        /*height: 200px;*/
+        height: 250px;
         width: 100%;
         margin: 0;
         border-radius: 5px;
@@ -399,8 +400,8 @@
     /*Título de indicações*/
     .indicações_título {
         color: yellow;
-        font-size: 3rem;
-        margin-top: 2rem;
+        font-size: 2.9rem;
+        margin-top: 1rem;
         margin-bottom: 0;
     
     }
@@ -591,7 +592,8 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 200px;
+        /*height: 200px;*/
+        height: 250px;
         width: 100%;
         margin: 0;
         border-radius: 5px;
@@ -676,7 +678,8 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 200px;
+        /*height: 200px;*/
+        height: 250px;
         width: 100%;
         margin: auto;
         border-radius: 5px;
@@ -687,7 +690,7 @@
     .mapas_título {
         color: yellow;
         font-size: 2.5rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
         margin-bottom: 0;
     
     }
@@ -852,7 +855,8 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 200px;
+        /*height: 200px;*/
+        height: 250px;
         width: 100%;
         margin: 0;
         border-radius: 5px;
@@ -866,7 +870,7 @@
     .indicações_formulario {
         color: yellow;
         font-size: 3rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
         margin-bottom: 0;
     
     }
