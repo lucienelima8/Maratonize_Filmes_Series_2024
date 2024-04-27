@@ -401,7 +401,8 @@
     .indicações_título {
         color: yellow;
         font-size: 2.9rem;
-        margin-top: 1rem;
+        /*margin-top: 1rem;*/
+        margin-top: .8rem;
         margin-bottom: 0;
     
     }
@@ -604,7 +605,8 @@
     .trailer_título_header {
         color: yellow;
         font-size: 3rem;
-        margin-top: 2rem;
+        /*margin-top: 2rem;*/
+        margin-top: .8rem;
         margin-bottom: 0;
        
     }
@@ -686,11 +688,12 @@
     
     }
     
-    /*h1: Título Pontos Turísticos -fotos, mapas e músicas*/
+    /*h1: Título Pontos Turísticos*/
     .mapas_título {
         color: yellow;
         font-size: 2.5rem;
-        margin-top: 1rem;
+        /*margin-top: 1rem;*/
+        margin-top: .8rem;
         margin-bottom: 0;
     
     }
@@ -870,7 +873,8 @@
     .indicações_formulario {
         color: yellow;
         font-size: 3rem;
-        margin-top: 1rem;
+        /*margin-top: 1rem;*/
+        margin-top: .8rem;
         margin-bottom: 0;
     
     }
