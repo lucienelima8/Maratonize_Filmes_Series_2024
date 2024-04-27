@@ -66,7 +66,7 @@ header {
 .article_menu{
     /*text-align: center;*/
     display: flex;
-    justify-content: left;
+    justify-content: center;
 
 }
 
