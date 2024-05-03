@@ -691,7 +691,7 @@
     /*h1: Título Pontos Turísticos*/
     .mapas_título {
         color: yellow;
-        font-size: 2.5rem;
+        font-size: 2.3rem;
         /*margin-top: 1rem;*/
         margin-top: .8rem;
         margin-bottom: 0;
@@ -711,12 +711,16 @@
     .h4_mapas {
         color: red;
         text-align: center;
-        font-size: 2rem;
+        /*font-size: 2rem;*/
+        font-size: 1.6rem;
         margin-top: 1rem;
-        margin-bottom: 0;
+        margin-bottom: -2rem;
         background-color: wheat;
         padding: 1rem;
         font-family: 'Merienda', cursive;
+
+        /*flex-wrap: wrap; /*quebra a linha*/
+
     
     
     }
@@ -759,6 +763,7 @@
         text-align: center;
         margin-top: 1rem;
         font-size: 1.1rem;
+        /*flex-wrap: wrap; /*não quebrar a linha*/
     
     }
     
@@ -766,6 +771,7 @@
     .destaque {
         /*color: yellow;*/
         color: var(--cor_amarelo_claro);
+        flex-wrap: wrap; /*não quebrar a linha*/
     
     }
     
@@ -841,11 +847,14 @@
     .audio:hover {
         transform: none;
     }
-    
+
+      
     .audio p {
         font-weight: bold;
         font-size: 1rem;
         margin-top: 2rem;
+        text-align: center;
+
         
     }
     

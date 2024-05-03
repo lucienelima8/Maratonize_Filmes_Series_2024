@@ -22,8 +22,7 @@
     margin: auto;
     justify-content: center;
     
-   
-    
+      
     
 }
   
@@ -66,7 +65,21 @@
 
  @media screen and (max-width: 768px) {
     .container {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+   
+    .card {
+        /*width: 350px;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
     }
 
     .card:hover {
@@ -75,10 +88,7 @@
         transform: none;
     
     }
-
-    .card {
-
-    }
+    
 
     .card-1 {
         margin-bottom: 2rem;
@@ -87,19 +97,23 @@
 
     .card-2 {
 
+
     }
 
     .card-img {
-        width: 350px;
+        width: 300px;
         height: 250px;
         justify-content: center;
-    
+        margin: 0;
+
+            
     }
     
     .card-mapa {
-        width: 350px;
+        width: 300px;
         height: 250px;  
         justify-content: center;
+        margin: 0;
   
     
     }
