@@ -763,7 +763,7 @@
         text-align: center;
         margin-top: 1rem;
         font-size: 1.1rem;
-        /*flex-wrap: wrap; /*não quebrar a linha*/
+        flex-wrap: wrap; /*quebrar a linha*/
     
     }
     
@@ -771,7 +771,7 @@
     .destaque {
         /*color: yellow;*/
         color: var(--cor_amarelo_claro);
-        flex-wrap: wrap; /*não quebrar a linha*/
+        flex-wrap: wrap; /*quebrar a linha*/
     
     }
     
@@ -841,6 +841,7 @@
     .audio {
         text-align: center;
         margin-top: 1rem;
+        margin-bottom: 1rem;
     
     }
 
@@ -848,11 +849,11 @@
         transform: none;
     }
 
-      
+     /*Ouça uma música do filme e entre no clima:*/ 
     .audio p {
         font-weight: bold;
         font-size: 1rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
         text-align: center;
 
         

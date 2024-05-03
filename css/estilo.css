@@ -788,6 +788,8 @@ iframe {
     text-align: center;
     margin-top: 1rem;
     font-size: 1.1rem;
+    flex-wrap: wrap; /*não quebrar a linha*/
+
 
 }
 
@@ -846,6 +848,7 @@ iframe {
 .audio {
     text-align: center;
     margin-top: 1rem;
+    margin-bottom: 3rem;
 
 
 }
@@ -855,13 +858,11 @@ iframe {
     
 }
 
-
+/*Ouça uma música do filme e entre no clima:*/ 
 .audio p {
     font-weight: bold;
     font-size: 1rem;
-    margin-top: 2rem;
-
-
+    margin-top: 3rem;
     
 }
 
