@@ -748,18 +748,18 @@ iframe {
 }
 
 /*Bloco inteiro*/
-.div_mapas {
+/*.div_mapas {
     margin-bottom: 5rem;
     
 
-}
+}*/
 
-.section_mapas {
+/*.section_mapas {
     /*margin: 1.5rem 1.5rem;*/
-    /*display: inline-block;*/
+    /*display: inline-block;
     
     
-}
+}*/
 
 /*Título do f/s em mapas*/
 .h2_mapas {
@@ -801,7 +801,7 @@ iframe {
 }
 
 /*Article com a foto e o mapa*/
-.article_mapas {
+/*.article_mapas {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -811,10 +811,10 @@ iframe {
 
 
 
-}
+}*/
 
 /*Imagem de cada ponto turístico*/
-.imagem_turística {
+/*.imagem_turística {
     width: 500px;
     height: 250px;
     margin-left: 2rem;
@@ -823,10 +823,10 @@ iframe {
     box-shadow: 3px 3px 3px 3px var(--cor_amarelo_claro);
 
 
-}
+}*/
 
 /*Mapa do ponto turístico*/
-.mapa_turístico {
+/*.mapa_turístico {
     width: 500px;
     height: 250px;
     margin-left: 5rem;
@@ -835,12 +835,79 @@ iframe {
     box-shadow: 3px 3px 3px 3px var(--cor_amarelo_claro);
 
 
-}
+}*/
 
-.imagem_turística:hover, .mapa_turístico:hover {
+/*.imagem_turística:hover, .mapa_turístico:hover {
     transform: scale(1.1);
     margin-top: 1rem; 
     margin-bottom: 1.5rem;
+
+}*/
+
+/*Cards que fiz pro mapas2.html*/
+.container_mapa {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+    padding: 2px 16px;
+    border-radius: 15px;
+
+
+
+}
+
+/*Card com os 2 cards: imagem e mapa*/
+.card {
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+    box-shadow: 0 4px 8px 0 var(--cor_amarelo_claro);
+    /*border-radius: 15px;*/
+
+    transition: 0.3s;
+    /*display: inline;*/
+    margin: auto;
+    justify-content: center;
+          
+}
+  
+.card:hover {
+    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);*/
+    /*box-shadow: 0 4px 8px 0 var(--cor_amarelo_claro);*/
+    transform: scale(1.1) ;
+
+    border-radius: 15px;
+
+}
+
+/*Card com a imagem*/
+.card-1 {
+
+} 
+
+/*Card com o mapa*/
+.card-2 {
+
+}
+
+.card-img {
+    width: 500px;
+    height: 350px;
+    border: 1px solid var(--cor_amarelo_claro);
+    border-radius: 15px;
+    margin: .3rem;
+
+}
+
+.card-mapa {
+    width: 500px;
+    height: 350px;
+    border: 1px solid var(--cor_amarelo_claro);
+    border-radius: 15px;
+    margin: .3rem;
+
+
 
 }
 

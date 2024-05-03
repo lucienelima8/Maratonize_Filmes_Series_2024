@@ -1,4 +1,22 @@
-  /*RESPONSIVIDADE CELULAR*/
+ /* /*RESPONSIVIDADE  telas até 1115px**/
+  @media screen and (max-width: 1115px) {
+    /*PAGE MAPA*/   
+    .container_mapa {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        /*justify-content: center;*/
+        /*align-items: center;*/
+    
+
+    }
+
+    
+}
+
+ 
+ 
+ /*RESPONSIVIDADE CELULAR*/
 
   @media screen and (max-width: 768px) {
 
@@ -719,26 +737,24 @@
         padding: 1rem;
         font-family: 'Merienda', cursive;
 
-        /*flex-wrap: wrap; /*quebra a linha*/
-
-    
-    
+       /*flex-wrap: wrap; /*quebra a linha*/
+       
     }
     
     /*Bloco inteiro*/
-    .div_mapas {
+    /*.div_mapas {
         margin-bottom: 5rem;
        
     
-    }
+    }*/
     
-    .section_mapas {
+    /*.section_mapas {
         margin: 1.5rem 1.5rem;
         /*margin: auto;*/
-        /*display: inline-block;*/
+        /*display: inline-block;
           
         
-    }
+    }*/
     
     /*Título do f/s em mapas*/
     .h2_mapas {
@@ -776,18 +792,18 @@
     }
     
     /*Article com a foto e o mapa*/
-    .article_mapas {
+    /*.article_mapas {
         flex-direction: column;
         /*display: flex;*/
         /*justify-content: center;*/
-        width: 100%;
+        /*width: 100%;
         justify-content: center space-around;
           
     
-    }
+    }*/
     
     /*Imagem de cada ponto turístico*/
-    .imagem_turística {
+    /*.imagem_turística {
         width: 300px;
         height: 200px;
         margin-left: auto;
@@ -802,15 +818,15 @@
     
     
     
-    }
+    }*/
     
     /*Mapa do ponto turístico*/
-    .mapa_turístico {
+    /*.mapa_turístico {
         width: 300px;
         height: 200px;
         /*margin-left: 5rem;
         margin-right: 2rem;*/
-        border-radius: 20px;
+        /*border-radius: 20px;
         box-shadow: 3px 3px 3px 3px var(--cor_amarelo_claro);
         margin-bottom: 1rem;
         margin-top: 1rem;
@@ -818,25 +834,84 @@
         margin-right: auto;
         flex-shrink: 1;
         flex-grow: 0;
+             
     
-       
+    }*/
     
-    
-    }
-    
-    .imagem_turística:hover {
+    /*.imagem_turística:hover {
         transform: none;
         /*margin-top: 1rem; 
-        margin-bottom: 1.5rem;*/
+        margin-bottom: 1.5rem;
     
-    }
+    }*/
     
-    .mapa_turístico:hover {
+    /*.mapa_turístico:hover {
         transform: none;
     
     
+    }*/
+
+    /*Cards que fiz pra page mapas2.html*/
+    .container_mapa {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        justify-content: center;
+        align-items: center;
+    
+
+    }
+
+   /*Card com os 2 cards: imagem e mapa*/
+    .card {
+        /*width: 350px;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15px;
+
+
+    }
+
+    .card:hover {
+        /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);*/
+        /*box-shadow: 0 4px 8px 0 var(--cor_amarelo_claro);*/
+        transform: none;
+    
     }
     
+
+    /*Card com a imagem*/
+    .card-1 {
+        margin-bottom: 2rem;
+
+    }
+
+    /*Card com o mapa*/
+    .card-2 {
+
+
+    }
+
+    .card-img {
+        width: 350px;
+        height: 250px;
+        justify-content: center;
+        margin: 0;
+
+            
+    }
+    
+    .card-mapa {
+        width: 350px;
+        height: 250px;  
+        justify-content: center;
+        margin: 0;
+  
+    
+    }
+
+   
     /*Áudio do f/s*/
     .audio {
         text-align: center;
@@ -1011,7 +1086,7 @@
     
     
     
-    }
+}
     
 
 
