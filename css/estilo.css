@@ -847,6 +847,7 @@ iframe {
 /*Cards que fiz pro mapas2.html*/
 .container_mapa {
     display: flex;
+    /*flex-direction: column;*/
     gap: 1rem;
     align-items: center;
     margin-top: 2rem;
