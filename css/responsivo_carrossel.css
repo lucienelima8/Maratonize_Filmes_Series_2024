@@ -1,0 +1,74 @@
+ /* /*RESPONSIVIDADE  telas até 1115px**/
+ @media screen and (max-width: 1115px) {
+    /*PAGE MAPA*/ 
+    
+    .content_galery {
+        height: 520px;
+        width: 935px;
+        border-radius: 20px;
+        overflow: hidden; /*esconde o conteúdo que ultrapassa o content*/
+        position: absolute; /*posiciona onde quero que fique na tela*/
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /*move o elemento em seu próprio eixo*/
+    
+    }
+
+    /*barrinhas de cada foto pra navegação*/
+    .navigation {
+        /*absolute pra poder mover o filho apenas dentro do elemento pai*/
+        position: absolute;
+        bottom: 10px; /*10px acima do bottom*/
+        left: 50%;
+        /*translate só no eixo x pra tirar o bug do left acima*/
+        transform: translate(-50%);
+        display: flex;
+
+
+    }
+
+    /*barrinha de navegação pra foto*/
+    .bar {
+        width: 40px;
+        height: 5px;
+    
+    }
+ }
+
+ /*RESPONSIVIDADE TABLET*/
+
+ @media screen and (max-width: 844px) {
+
+    /*CARROSSEL (com imagens da page mapas)*/
+    .content_galery {
+        height: 300px;
+        width: 380px;
+        border-radius: 20px;
+        overflow: hidden; /*esconde o conteúdo que ultrapassa o content*/
+        position: absolute; /*posiciona onde quero que fique na tela*/
+        top: 1%;
+        left: 50%;
+        transform: translate(-50%, -50%); /*move o elemento em seu próprio eixo*/
+    
+    }
+
+    /*barrinhas de cada foto pra navegação*/
+    .navigation {
+        /*absolute pra poder mover o filho apenas dentro do elemento pai*/
+        position: absolute;
+        bottom: 10px; /*10px acima do bottom*/
+        left: 50%;
+        /*translate só no eixo x pra tirar o bug do left acima*/
+        transform: translate(-50%);
+        display: flex;
+
+
+    }
+
+    /*barrinha de navegação pra foto*/
+    .bar {
+        width: 40px;
+        height: 5px;
+    
+    }
+}

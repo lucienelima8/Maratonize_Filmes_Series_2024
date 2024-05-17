@@ -1,0 +1,105 @@
+/*Carrossel com imagens da page mapas*/
+.content_galery {
+    height: 520px;
+    width: 935px;
+    border-radius: 20px;
+    overflow: hidden; /*esconde o conteúdo que ultrapassa o content*/
+    position: absolute; /*posiciona onde quero que fique na tela*/
+    top: 50%;
+    left: 50%;
+    margin-top: 600px;
+    transform: translate(-50%, -50%); /*move o elemento em seu próprio eixo*/
+    box-shadow: 0 4px 8px 0 var(--cor_amarelo_claro);
+
+
+}
+
+/*barrinhas de cada foto pra navegação*/
+.navigation {
+    /*absolute pra poder mover o filho apenas dentro do elemento pai*/
+    position: absolute;
+    bottom: 20px; /*20px acima do bottom*/
+    left: 50%;
+    /*translate só no eixo x pra tirar o bug do left acima*/
+    transform: translate(-50%);
+    display: flex;
+
+
+}
+
+/*barrinha de navegação pra foto*/
+.bar {
+    width: 70px;
+    /*height: 17px;*/
+    height: 10px;
+    /*border: 2px solid #fff;*/
+    border: 2px solid yellow;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    /*tempo que o hover será aplicado*/
+    transition: .4s;
+
+}
+
+.bar:hover {
+    /*background-color: #fff;*/
+    background-color: brown;
+
+}
+
+/*pra tirar os check de cima*/
+input {
+    display: none;
+
+}
+
+/*div com todas as imagens e inputs*/
+.slides {
+    display: flex;
+    width: 500%; /*pra uma imagem aparecer de cada vez*/
+    height: 100%;
+
+}
+
+/*div de cada imagem*/
+.img_slide {
+    /*100 / 4 imagens*/
+    width: 25%; /*pra todas as imagens fiquem no mesmo tamanho*/
+    /*efeito pra quando for pra outra imagem*/
+    transition: .6s;
+
+}
+
+/*cada imagem*/
+.img_slide img {
+    /*para aparecer a imagem inteira 100% no w/h*/
+    width: 100%;
+    height: 100%;
+    
+        
+    
+}
+
+/*quando o slide 1 tiver checkado, quero que o s1 (primeira imagem) ela tenha uma margin*/
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+
+}
+
+/*quando o slide2 estiver checked o s1 dê uma margin-left*/
+#slide2:checked ~ .s1 {
+    margin-left: -25%; /*para que a img vá pra direita*/
+
+}
+
+#slide3:checked ~ .s1 {
+    /*img3 estará -50% da primeira imagem que é o s1*/
+    margin-left: -50%; 
+
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -75%;
+
+}

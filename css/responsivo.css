@@ -811,6 +811,13 @@
         color: black;
     
     }
+
+    /*Class pra margin top apenas pro primeiro título do filme*/
+    .primeiro_título_mapas {
+        margin-top: 28rem;
+
+
+    }
     
     /*Descrição do ponto turístico*/
     .descrição_turístico {

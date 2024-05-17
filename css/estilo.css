@@ -783,6 +783,14 @@ iframe {
 
 }
 
+/*Class pra margin top apenas pro primeiro título do filme*/
+.primeiro_título_mapas {
+    margin-top: 45rem;
+    /*border-top: 1px solid var(--cor_amarelo_claro);*/
+
+
+}
+
 /*Descrição do ponto turístico*/
 .descrição_turístico {
     text-align: center;
