@@ -1,0 +1,25 @@
+ /*PAGE ATORES*/
+
+/*Header dos atores*/
+.header_atores {
+    /*background-image: url(../imagens/luzes.jpg);*/
+    background-image: url(../imagens/stage-light-with-red-background2.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    border-radius: 5px;
+
+
+}
+
+/*Título: Atores*/
+.atores_título{
+    color: yellow;
+    /*color: var(--cor_amarelo_claro);*/
+    font-size: 6rem;
+    margin-top: 6rem;
+
+}
