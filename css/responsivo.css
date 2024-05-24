@@ -1,3 +1,6 @@
+ /*RESPONSIVIDADE GERAL*/
+
+
  /* /*RESPONSIVIDADE  telas até 1115px**/
   @media screen and (max-width: 1115px) {
     /*PAGE MAPA*/  
@@ -165,9 +168,7 @@
     /*Header Home*/
     header {
         background-image: url(../imagens/carretel_filme_2.jpg);
-        /*background-image: url(../imagens/um-carretel-que-tem-uma-lata-vermelha-que-diz-a-palavra.jpg);*/
-        /*background-image: url(../imagens/header_netflix.jpg);*/
-        /*background-image: url(imagens/header_netflix.jpg);*/
+       
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
