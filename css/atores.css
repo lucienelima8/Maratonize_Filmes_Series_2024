@@ -23,3 +23,46 @@
     margin-top: 6rem;
 
 }
+
+/*Section dos atores*/
+.section_atores {
+    /*margin: 2rem;*/
+    /*padding: .5rem;*/
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 0.5rem;
+
+}
+
+.p_atores {
+    text-align: center;
+    font-weight: bold;
+    color: var(--cor_amarelo_claro);
+    font-size: 1.2rem;
+}
+
+/*Classe geral pra figure*/
+.figure_atores {
+
+}
+
+/*Classe pra img da page atores*/
+.img_ator {
+    width: 12.5rem;
+    height: 18.75rem;
+    border: 1px solid var(--cor_amarelo_claro);
+    border-radius: 25px;
+
+    /*object-fit é pra especificar como um <img> ou <video> deve ser redimensionado para caber em seu contêiner*/
+    /*Essa propriedade informa ao conteúdo pra preencher o contêiner de diversas maneira; como "preservar essa proporção" ou "esticar e ocupar o máximo de espaço possível*/
+    object-fit: cover;
+
+}
+
+/*Nicolas Cage*/
+.atcage {
+
+
+}
