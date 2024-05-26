@@ -8,10 +8,12 @@
         background-image: url(../imagens/stage-light-with-red-background2.jpg);
     }
 
+    
+
 }
 
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 845px) {
 
     /*Header dos atores*/
     .header_atores {
@@ -37,5 +39,50 @@
         margin-bottom: 0;
     
     }
+
+    /*Section dos atores*/
+    .section_atores {
+        display: grid;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        
+        gap: 0.5rem;
+
+        width: 100%;
+        /*margin: 1rem auto;*/
+        /*margin-left: 1rem;
+        margin-right: 1rem;*/
+        justify-content: space-between;
+    
+
+    }
+
+    /*Classe geral pra figure*/
+    .figure_atores {
+        text-align: center;
+
+    }
+
+    /*Classe pra img da page atores*/
+    .img_ator {
+        width: 12.5rem;
+        height: 15.62rem;
+        border: 1px solid var(--cor_amarelo_claro);
+        border-radius: 25px;
+        cursor: pointer;
+
+        /*object-fit é pra especificar como um <img> ou <video> deve ser redimensionado para caber em seu contêiner*/
+       /*Essa propriedade informa ao conteúdo pra preencher o contêiner de diversas maneira; como "preservar essa proporção" ou "esticar e ocupar o máximo de espaço possível*/
+       object-fit: cover;
+
+    }
+
+    .img_ator:hover {
+        transform: none;
+    
+    }
+
+
 
 }

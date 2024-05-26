@@ -36,7 +36,9 @@
     gap: 0.5rem;
 
     width: 100%;
-    margin: 1rem auto;
+    /*margin: 1rem auto;*/
+    margin-left: 1rem;
+    margin-right: 1rem;
     justify-content: space-between;
     
 
@@ -46,16 +48,17 @@
 /*Classe geral pra figure*/
 .figure_atores {
     /*pra img não estourar a margin que defini no grid*/
-    overflow: hidden; /*não deixa a img ultrapassar a borda e não ficar distorcida*/
+    /*overflow: hidden; /*não deixa a img ultrapassar a borda e não ficar distorcida*/
 
 }
 
 /*Classe pra img da page atores*/
 .img_ator {
-    width: 9.37rem;
+    width: 12.5rem;
     height: 18.75rem;
     border: 1px solid var(--cor_amarelo_claro);
     border-radius: 25px;
+    cursor: pointer;
 
     /*object-fit é pra especificar como um <img> ou <video> deve ser redimensionado para caber em seu contêiner*/
     /*Essa propriedade informa ao conteúdo pra preencher o contêiner de diversas maneira; como "preservar essa proporção" ou "esticar e ocupar o máximo de espaço possível*/
@@ -63,30 +66,35 @@
 
 }
 
+.img_ator:hover {
+    transform: scale(1.1);
+    
+}
+
 /*Cada ator*/
 
 /*Cha Eun-woo */
-.at_eunwoo {
+/*.at_eunwoo {
     grid-column: 1 / sapn 4;
     grid-row: 1 / span 5;
 }
 
 /*Zhao Lusi*/
-.at_zhao {
+/*.at_zhao {
     grid-column: 5 / span 4;
     grid-row: 1 / span 5;
 
 }
 
 /*Nicolas Cage*/
-.at_cage {
+/*.at_cage {
     grid-column: 8 / span 4; 
     grid-row: 1 /  span 5; 
 
 }
 
 /*Kim Tae-ri*/
-.at_kim {
+/*.at_kim {
     grid-column: 11 / span 4;
     grid-row: 1 / span 5;
 
