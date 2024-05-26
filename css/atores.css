@@ -34,6 +34,10 @@
     grid-template-columns: repeat(4, 1fr);;
     grid-template-rows: repeat(4, 1fr);
     gap: 0.5rem;
+
+    width: 100%;
+    margin: 1rem auto;
+    justify-content: space-between;
     
 
 }
@@ -88,7 +92,12 @@
 
 }
 
+/*Mark Wahlberg*/
+/*.at_mark {
+    grid-column: 3 / sapn 4;
+    grid-row: 6 / span 5;
 
+}*/
 
 
 
