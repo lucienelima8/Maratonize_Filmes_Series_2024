@@ -29,28 +29,26 @@
     /*margin: 2rem;*/
     /*padding: .5rem;*/
 
+    /*max-width: auto;*/
     display: grid;
     grid-template-columns: repeat(4, 1fr);;
     grid-template-rows: repeat(4, 1fr);
     gap: 0.5rem;
+    
 
 }
 
-.p_atores {
-    text-align: center;
-    font-weight: bold;
-    color: var(--cor_amarelo_claro);
-    font-size: 1.2rem;
-}
 
 /*Classe geral pra figure*/
 .figure_atores {
+    /*pra img não estourar a margin que defini no grid*/
+    overflow: hidden; /*não deixa a img ultrapassar a borda e não ficar distorcida*/
 
 }
 
 /*Classe pra img da page atores*/
 .img_ator {
-    width: 12.5rem;
+    width: 9.37rem;
     height: 18.75rem;
     border: 1px solid var(--cor_amarelo_claro);
     border-radius: 25px;
@@ -61,8 +59,38 @@
 
 }
 
-/*Nicolas Cage*/
-.atcage {
+/*Cada ator*/
 
+/*Cha Eun-woo */
+.at_eunwoo {
+    grid-column: 1 / sapn 4;
+    grid-row: 1 / span 5;
+}
+
+/*Zhao Lusi*/
+.at_zhao {
+    grid-column: 5 / span 4;
+    grid-row: 1 / span 5;
 
 }
+
+/*Nicolas Cage*/
+.at_cage {
+    grid-column: 8 / span 4; 
+    grid-row: 1 /  span 5; 
+
+}
+
+/*Kim Tae-ri*/
+.at_kim {
+    grid-column: 11 / span 4;
+    grid-row: 1 / span 5;
+
+}
+
+
+
+
+
+
+
