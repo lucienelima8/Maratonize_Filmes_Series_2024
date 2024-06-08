@@ -71,14 +71,21 @@
     
 }
 
+
 /*Parágrafo pra aparecer o nome do ator com JS*/
-#click_nome {
+#click_nome, #click_nome1 {
     font-size: 1.2rem;
     color: var(--cor_amarelo_claro);
-    margin-left: auto;
-    margin-right: 1rem;
+
+    /*margin-left: auto;
+    margin-right: auto;*/
     text-align: center;
     justify-content: space-between;
+
+    /*display: grid;
+    grid-template-columns: repeat(4, 1fr);;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 0.5rem;*/
 
 
 }
