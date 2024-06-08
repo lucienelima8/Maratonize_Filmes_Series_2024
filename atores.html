@@ -18,9 +18,7 @@
     <!-- Link arq js do menu hambuguer -->
     <script src="index.js"></script>
 
-    <!-- Link pro JS mostrar o nome do ator -->
-    <script src="nome_ator.js"></script>
-
+    
     <!-- Linkar normalize -->
     <link rel="stylesheet" href="css/normalize.css">
 
@@ -78,10 +76,10 @@
           
                 <figure class="figure_atores at_cage">
                     
-                    <img class="img_ator" onclick="aparecer_nome()" src="imagens/nicolas_cage.jpg" alt="Nicolas Cage">
+                    <img class="img_ator" onclick="mostrar_nome()" src="imagens/nicolas_cage.jpg" alt="Nicolas Cage">
                
                     <!-- Parágrafo pra aparecer com JS apenas ao clicar com o mouse -->
-                    <p id="click_nome"></p>
+                    <p id="click_nome" style="display: none;">Nicolas Cage</p>
 
                 </figure>
 
@@ -238,6 +236,10 @@
 <!-- Footer / Rodapé -->
 <footer>Copyright &copy; Luciene Lima 2023/2024 - <br>Desenvolvido para o Curso Descodificadas (trilha 1)</footer>
     
-    
+
+<!-- Link pro JS mostrar o nome do ator -->
+<script src="nome_ator.js"></script>
+
+
 </body>
 </html>

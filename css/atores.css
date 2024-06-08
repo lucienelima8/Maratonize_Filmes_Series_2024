@@ -71,6 +71,19 @@
     
 }
 
+/*Parágrafo pra aparecer o nome do ator com JS*/
+#click_nome {
+    font-size: 1.2rem;
+    color: var(--cor_amarelo_claro);
+    margin-left: auto;
+    margin-right: 1rem;
+    text-align: center;
+    justify-content: space-between;
+
+
+}
+
+
 
 /*Cada ator*/
 

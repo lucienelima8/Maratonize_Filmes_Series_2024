@@ -25,12 +25,85 @@
 //});
 
 
-function aparecer_nome() {
+/*function aparecer_nome() {
+    var alt = document.getElementsByClassName('img_ator').getAttribute('alt');
+    var paragrafo = document.getElementById('click_nome');
+
+
+
+    return paragrafo.innerHTML = '<p>' + alt + '</p>';
+
+}
+aparecer_nome();*/
+
+/*document.getElementsByClassName('img_ator').addEventListener("click", function aparecer_nome (){
+    document.getElementById('click_nome').style.display = "block";
+});*/
+
+/*document.getElementsByClassName('img_ator').addEventListener('click', function aparecer_nome(){
+
+    var nome_foto = this.alt;
+
+    document.getElementById('click_nome').textContent = nome_foto;
+    document.getElementById('click_nome').style.display = "block";
+
+});
+
+aparecer_nome();*/
+
+/*function aparecer_nome(){
     var alt = document.getElementsByClassName('img_ator').getAttribute('alt');
     var paragrafo = document.getElementById('click_nome');
 
     paragrafo.innerHTML = '<p>' + alt + '</p>';
 
+
+}*/
+
+/*document.getElementsByClassName('img_ator').onclik = aparecer_nome;
+
+function aparecer_nome() {
+    var alt = document.getAttribute('alt');
+    var paragrafo = document.getElementById('click_nome');
+
+    paragrafo.innerHTML = '<p>' + alt + '</p>';
+
+}*/
+
+
+/*function aparecer_nome('click_nome') {
+
+    var alt = document.getElementsByClassName('img_ator').getAttribute('alt');
+
+    var paragrafo = document.getElementById('click_nome');
+
+    document.getElementById('click_nome').innerHTML = "<p>" + paragrafo +"</p>"
+    
+}*/
+
+/*var alt = document.getElementsByClassName('img_ator').getAttribute('alt');
+
+function aparecer_nome() {
+
+    document.getElementById('click_nome').style.display ='block';
+
+
+
+}*/
+
+var foto_ator = document.getElementsByClassName('img_ator');
+
+function mostrar_nome() {
+    document.getElementById('click_nome').style.display = 'block';
+
 }
+
+
+
+
+
+
+
+
 
 
