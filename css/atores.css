@@ -24,6 +24,33 @@
 
 }
 
+/*Div pro Botão Clique e veja o nome dos atores*/
+.div_btn_nome_atores {
+   text-align: center;
+}
+
+/*Botão pra usar o JS clicando e aparecendo nome dos atores*/
+.btn_nome_atores {
+    background-color: rgba(143, 28, 28, 0.555);
+    color: black;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    padding: .7rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bolder;
+    border: 1px solid var(--cor_amarelo_claro);
+    cursor: pointer;
+    
+}
+
+.btn_nome_atores:hover {
+    background-color: yellow;
+    border: 1px solid black;
+    color: black;
+}
+
 /*Section dos atores*/
 .section_atores {
     /*margin: 2rem;*/
