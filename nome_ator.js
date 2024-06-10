@@ -25,8 +25,17 @@ let nome_ator = document.getElementsByClassName('btn_nome_atores');
 function mostrar_nome() {
     
     document.getElementById('click_nome').style.display = 'block';
+    
     document.getElementById('click_nome1').style.display = 'block';
+
+    document.getElementById('click_nome2').style.display = 'block';
+
+    document.getElementById('click_nome3').style.display = 'block';
+
 }
+
+
+
 
 
 

@@ -100,7 +100,7 @@
 
 
 /*Parágrafo pra aparecer o nome do ator com JS*/
-#click_nome, #click_nome1 {
+#click_nome, #click_nome1, #click_nome2, #click_nome3 {
     font-size: 1.2rem;
     color: var(--cor_amarelo_claro);
 
