@@ -30,7 +30,7 @@
 }
 
 /*Botão pra usar o JS clicando e aparecendo nome dos atores*/
-.btn_nome_atores {
+#btn_nome_atores {
     background-color: rgba(143, 28, 28, 0.555);
     color: black;
     margin-top: 1.5rem;
@@ -45,7 +45,7 @@
     
 }
 
-.btn_nome_atores:hover {
+#btn_nome_atores:hover {
     background-color: yellow;
     border: 1px solid black;
     color: black;
@@ -100,7 +100,7 @@
 
 
 /*Parágrafo pra aparecer o nome do ator com JS*/
-#click_nome, #click_nome1, #click_nome2, #click_nome3 {
+.click_nome {
     font-size: 1.2rem;
     color: var(--cor_amarelo_claro);
 
@@ -158,4 +158,31 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Esse trabalho foi feito por Luciene Lima*/
 
