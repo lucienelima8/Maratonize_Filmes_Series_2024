@@ -4,7 +4,7 @@ Maratonize: Dicas de Filmes e Séries - 2024 (aperfeiçoando o site criado para 
 <br>
 - Desenvolvido com HTML 5, CSS 3 e JavaScript.
 <br>
-Esse site foi desenvolvido em 2023, na trilha 1. 
+Esse site foi iniciado em 2023, na trilha 1. 
 <br>
 Em 2024, na trilha 2, ele está sendo usado para aperfeiçoamento do aprendizado.
 <br>
