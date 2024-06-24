@@ -8,6 +8,24 @@
         background-image: url(../imagens/stage-light-with-red-background2.jpg);
     }
 
+    /*Section dos atores*/
+    .section_atores {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);;
+        grid-template-rows: repeat(4, 1fr);
+        justify-content: center;
+        align-items: center;
+        
+        gap: 0.5rem;
+
+        width: 100%;
+        /*margin: 1rem 1rem;*/
+        /*margin-left: 1rem;*/
+        /*margin-right: 1rem;*/
+        /*justify-content: space-between;*/
+    
+
+    }
     
 
 }
@@ -50,9 +68,9 @@
         gap: 0.5rem;
 
         width: 100%;
-        /*margin: 1rem auto;*/
-        /*margin-left: 1rem;
-        margin-right: 1rem;*/
+        margin: 1rem auto;
+        /*margin-left: 1rem;*/
+        /*margin-right: 1rem;*/
         justify-content: space-between;
     
 
