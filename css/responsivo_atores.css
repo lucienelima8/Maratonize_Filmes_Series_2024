@@ -26,6 +26,17 @@
     
 
     }
+
+    /*Parágrafo pra aparecer o nome do ator com JS*/
+    .click_nome {
+        font-size: 1.2rem;
+        color: var(--cor_amarelo_claro);
+        text-align: center;
+        justify-content: space-between;
+        margin-left: -1rem;
+        margin-right: -1rem;
+    
+    }
     
 
 }
