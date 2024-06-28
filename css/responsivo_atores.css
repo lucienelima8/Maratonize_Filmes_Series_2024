@@ -1,6 +1,7 @@
 /*RESPONSIVIDADE PAGE ATORES*/
 
-/* /*RESPONSIVIDADE  telas até 1115px**/
+/*RESPONSIVIDADE  telas até 1115px*/
+
 @media screen and (max-width: 1115px) {
     /*Header dos atores*/
     .header_atores {
@@ -19,6 +20,7 @@
         gap: 0.5rem;
 
         width: 100%;
+
         /*margin: 1rem 1rem;*/
         /*margin-left: 1rem;*/
         /*margin-right: 1rem;*/
