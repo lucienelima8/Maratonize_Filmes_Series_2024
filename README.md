@@ -8,6 +8,7 @@ Esse site foi iniciado em 2023, na trilha 1.
 <br>
 Em 2024, na trilha 2, ele está sendo usado para aperfeiçoamento do aprendizado.
 <br>
+Foi acrescentado: carrossel de imagens, imagens em grid e cards, menu hamburguer com JavaScript, uma página de atores com um botão em JavaScript pra mostrar o nome dos atores.
 <br>
 Autora: Luciene Lima
 <br>
