@@ -11,6 +11,15 @@ Em 2024, na trilha 2, ele está sendo usado para aperfeiçoamento do aprendizado
 Foi acrescentado: carrossel de imagens, imagens em grid e cards, menu hamburguer com JavaScript, uma página de atores com um botão em JavaScript pra mostrar o nome dos atores.
 <br>
 <br>
+
+![foto_carrossel](https://github.com/lucienelima8/Maratonize_Filmes_Series_2024/assets/137119392/6b7452a7-3ff4-4230-91d3-ec9984554530)
+
+<br>
+
+![atores](https://github.com/lucienelima8/Maratonize_Filmes_Series_2024/assets/137119392/dc3e4eaa-6cf3-4633-a793-e3bd3b26900b)
+
+<br>
+<br>
 Autora: Luciene Lima
 <br>
 <a href="https://github.com/lucienelima8" target="_blank">Meu Github</a>
