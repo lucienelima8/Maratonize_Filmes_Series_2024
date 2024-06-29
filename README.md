@@ -10,6 +10,7 @@ Em 2024, na trilha 2, ele está sendo usado para aperfeiçoamento do aprendizado
 <br>
 Foi acrescentado: carrossel de imagens, imagens em grid e cards, menu hamburguer com JavaScript, uma página de atores com um botão em JavaScript pra mostrar o nome dos atores.
 <br>
+<br>
 Autora: Luciene Lima
 <br>
 <a href="https://github.com/lucienelima8" target="_blank">Meu Github</a>
