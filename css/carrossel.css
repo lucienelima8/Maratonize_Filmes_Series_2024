@@ -66,7 +66,9 @@ input {
 
 /*div de cada imagem*/
 .img_slide {
-    /*100 / 4 imagens*/
+    /*100 / 4 imagens = 25*/
+    /*100 / 5 imagens = 20*/
+
     width: 25%; /*pra todas as imagens fiquem no mesmo tamanho*/
     /*efeito pra quando for pra outra imagem*/
     transition: .6s;
@@ -103,5 +105,10 @@ input {
 
 #slide4:checked ~ .s1 {
     margin-left: -75%;
+
+}
+
+#slide5:checked ~ .s1 {
+    margin-left: -100%;
 
 }
